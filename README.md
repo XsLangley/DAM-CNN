@@ -14,7 +14,7 @@ In this code, I just exemplify the training and validation/testing process of DA
 
 ## Setup
 * I have appended the pre-processed FER2013 in the file 'DB.rar'. Just extract DB.rar in the current directory. You can access to the original FER2013 in https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data 
-* The model needs to load the pretrained VGG-Face model. The parameters of VGG-Face (in the form of .npy) can be downloaded [here](). Just place it in the current directory. The original pretrained VGG-Face model can be downloaded [here]( http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) 
+* The model needs to load the pretrained VGG-Face model. The parameters of VGG-Face (in the form of .npy) can be downloaded [here](https://pan.baidu.com/s/19P-No4tJdxVDMYwAd61O3Q) (extraction code: axig). Just place it in the current directory. The original pretrained VGG-Face model can be downloaded [here]( http://www.robots.ox.ac.uk/~vgg/software/vgg_face/) 
 
 ## Other Information
 * In the paper, DAM-CNN is trained following a two-stage strategy. In this code, I have improved it so the model can be trained in an end-to-end manner. The training strategy of this code is a little different with the description in our paper. But the classification results of this code are consistent with the accuracy we reported in the paper.
